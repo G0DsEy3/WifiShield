@@ -1,0 +1,12 @@
+2026-04-27 14:27:46,464 | INFO | Wifishield started on macOS-15.7.1-arm64-arm-64bit-Mach-O
+2026-04-27 14:27:46,464 | INFO | Gateway detected: ip=172.20.10.1 mac=5e:70:17:37:ab:64
+2026-04-27 14:34:27,415 | WARNING | event_type=IP-MAC Conflict risk_score=5 risk_level=MEDIUM details=IP 172.20.10.2 changed MAC from b6:9d:72:54:ec:b2 to 7e:3e:9c:7b:aa:1a. ip=172.20.10.2 mac=7e:3e:9c:7b:aa:1a
+2026-04-27 14:34:27,551 | WARNING | event_type=IP-MAC Conflict risk_score=7 risk_level=MEDIUM details=IP 172.20.10.2 changed MAC from 7e:3e:9c:7b:aa:1a to b6:9d:72:54:ec:b2. ip=172.20.10.2 mac=b6:9d:72:54:ec:b2
+2026-04-27 14:49:51,817 | INFO | Wifishield started on macOS-15.7.1-arm64-arm-64bit-Mach-O
+2026-04-27 14:49:51,826 | INFO | Gateway detected: ip=192.168.29.1 mac=8c:a3:99:ab:85:b7
+2026-04-27 14:50:03,193 | WARNING | event_type=IP-MAC Conflict risk_score=5 risk_level=MEDIUM details=IP 192.168.29.19 changed MAC from 7e:3e:9c:7b:aa:1a to b6:9d:72:54:ec:b2. ip=192.168.29.19 mac=b6:9d:72:54:ec:b2
+2026-04-27 14:50:06,865 | WARNING | event_type=IP-MAC Conflict risk_score=7 risk_level=MEDIUM details=IP 192.168.29.19 changed MAC from b6:9d:72:54:ec:b2 to 7e:3e:9c:7b:aa:1a. ip=192.168.29.19 mac=7e:3e:9c:7b:aa:1a
+2026-04-27 14:50:18,519 | WARNING | event_type=IP-MAC Conflict risk_score=12 risk_level=HIGH details=IP 172.20.10.2 changed MAC from b6:9d:72:54:ec:b2 to 7e:3e:9c:7b:aa:1a. ip=172.20.10.2 mac=7e:3e:9c:7b:aa:1a
+2026-04-27 14:50:27,033 | WARNING | event_type=IP-MAC Conflict risk_score=14 risk_level=HIGH details=IP 192.168.29.19 changed MAC from 7e:3e:9c:7b:aa:1a to b6:9d:72:54:ec:b2. ip=192.168.29.19 mac=b6:9d:72:54:ec:b2
+2026-04-27 14:50:27,568 | WARNING | event_type=IP-MAC Conflict risk_score=16 risk_level=HIGH details=IP 172.20.10.2 changed MAC from 7e:3e:9c:7b:aa:1a to b6:9d:72:54:ec:b2. ip=172.20.10.2 mac=b6:9d:72:54:ec:b2
+2026-04-27 14:50:30,946 | WARNING | event_type=IP-MAC Conflict risk_score=18 risk_level=HIGH details=IP 192.168.29.19 changed MAC from b6:9d:72:54:ec:b2 to 7e:3e:9c:7b:aa:1a. ip=192.168.29.19 mac=7e:3e:9c:7b:aa:1a
