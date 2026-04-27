@@ -82,7 +82,7 @@ python main.py
 For Linux/macOS, run with root/admin privileges because packet sniffing and ARP inspection require elevated access:
 
 ```bash
-sudo python main.py
+sudo python3 main.py
 ```
 
 Run simulation mode (no live sniffing, no root required):
